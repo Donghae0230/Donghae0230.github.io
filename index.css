@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header {
+    display: block;
+    background: #a5d296;
+    padding: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'RIDIBatang';
+}
+
+nav {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav >  a {
+    text-decoration: none;
+    padding: 10px;
+    color: #a5d296;
+    font-weight: bold;
+    font-family: 'NanumSquare', sans-serif ;
+}
+
+.contents {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    height: 1000px;
+}
+
+article {
+    flex: 7;
+    padding: 30px;
+    color: #404146;
+    font-family: 'RIDIBatang';
+}
+
+aside {
+    flex: 3;
+    padding: 30px;
+    font-family: 'RIDIBatang';
+    color: #404146;
+}
+
+.contents2 {
+    margin: 10px;
+}
+
+.myimg {
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+}
+
+.myimg2 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #404146;
+    font-family: 'NanumSquare', sans-serif ;
+}
